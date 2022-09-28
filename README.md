@@ -2,12 +2,21 @@
 
 ## Installation
 
-- VS Code
+- Editor zur Java-Programmierung: [VS Code](https://code.visualstudio.com/) mit dem Extension Pack for Java (in VS Code installierbar)
+- Es wird empfohlen, im Projekt-Ordner einen Unterordner `.vscode` anzulegen, der eine `settings.json` enthält, welche die Zeilen
+
+```json
+{
+    "editor.formatOnSave": true,
+}
+```
+
+enthält. Der Quellcode wird beim Speichern somit automatisch formatiert.
 
 ## Ressourcen
 
 - [w3schools Java Tutorial](https://www.w3schools.com/java/default.asp)
-- [GeeksForGeeks Jave Tutorial](https://www.geeksforgeeks.org/java/)
+- [GeeksForGeeks Java Tutorial](https://www.geeksforgeeks.org/java/)
 
 ## Themen
 
@@ -19,7 +28,7 @@
 - Laufzeitanalyse
 - Objektorientiertes Programmieren
 - Generics
-- Datenstrukturen (wie verlinkte Liste, Baum, Graph, Stack, Warteschlange etc.)
+- Datenstrukturen (wie verlinkte Liste, Baum, Graph, Stack, Warteschlange etc.) und Algorithmen
 
 ## Aufgaben
 
