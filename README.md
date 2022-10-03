@@ -30,6 +30,10 @@ enthält. Der Quellcode wird beim Speichern somit automatisch formatiert.
 - Generics
 - Datenstrukturen (wie verlinkte Liste, Baum, Graph, Stack, Warteschlange etc.) und Algorithmen
 
+## Arbeit mit Git
+
+Siehe [Seite zu Git](GIT.md)
+
 ## Aufgaben
 
 - Einführung in Git und Github [Link](https://classroom.github.com/a/Au95RH-b)
