@@ -37,3 +37,4 @@ Siehe [Seite zu Git](GIT.md)
 ## Aufgaben
 
 - Einführung in Git und Github [Link](https://classroom.github.com/a/Au95RH-b)
+- [Übung 3](https://classroom.github.com/a/wVc3AoTq) zu Klassen
