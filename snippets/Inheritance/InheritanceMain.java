@@ -1,3 +1,46 @@
+/**
+ * Grundsätzlich gibt es zwei Möglichkeiten, die Variablen und Methoden einer
+ * Klasse A innerhalb einer anderen Klasse B zu verwenden.
+ * 
+ * - Die eine Möglichkeit kennen wir schon: Wir erzeugen eine Instanz von Klasse
+ * A in Klasse B und verwenden die Variablen und Methoden dieser Instanz.
+ * Diese Instanz kann eine Instanzvariable der Klasse B sein.
+ * Wir sagen in diesem Fall "Klasse B hat ein Objekt von Klasse A" und sprechen
+ * von "Aggregation"
+ * 
+ * - Die andere Möglichkeit besteht in der sogenannten "Vererbung".
+ * Mittels "public class B extends A" erbt Klasse B alle Variablen und Methoden
+ * von Klasse A. Weitere Variablen und Methoden können hinzugefügt werden.
+ * Der Konstruktor von Klasse b ruft den Konstruktor von Klasse A mit Hilfe
+ * der super()-Methode auf. Dieser werden alle Parameter übergeben, welche
+ * der Konstruktor der Klasse A braucht.
+ * wir sagen "Klasse B erbt von Klasse A"
+ * 
+ * Vererbung sollte eingesetzt werden, wenn ein Objekt der Klasse B auch ein
+ * Objekt der Klasse A sein soll, einfach spezieller, mit mehr
+ * Eigenschaften/Methoden
+ * 
+ * Aggregation sollten im Gegenzug verwendet werden, wenn eine Instanz von
+ * Klasse A Teil von Klasse B sein soll.
+ * 
+ * Wenn Klasse B von Klasse A erbt, so nennen wir Klasse A "Basisklasse"
+ * und Klasse B "abgeleitete Klasse"
+ * 
+ * Es ist auch möglich, dass etwa Klasse C von Klasse B erbt und Klasse B von
+ * Klasse A. Dann erbt Klasse C also indirekt auch von A.
+ * 
+ * Was hingegen in Java nicht möglich ist, ist dass eine Klasse von mehreren
+ * Klassen erbt. Es gibt dafür sogenannte "Interfaces", welche in engem
+ * Zusammenhang zur Vererbung stehen. Eine Klasse kann mehrere Interfaces
+ * implementieren. Um dies zu verstehen, werden wir später "Abstrakte Klassen"
+ * und dann "Interfaces" studieren.
+ * 
+ * Im folgenden Beispiel ist "Vehicle" die Basisklasse mit den beiden
+ * abgeleiteten Klassen "Car" und "Bike". Von "Car" ist desweiteren Klasse
+ * "SportsCar" abgeleitet. Indirekt erbt also Klasse "SportsCar" auch von Klasse
+ * "Vehicle"
+ */
+
 public class InheritanceMain {
     public static void main(String[] args) {
 
