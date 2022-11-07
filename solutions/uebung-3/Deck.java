@@ -49,19 +49,15 @@ public class Deck {
     }
 
     public void addCard(Card card) {
-        boolean contained = false;
         for (Card c : this.cards) {
             if (c.equals(card)) {
-                contained = true;
                 System.out.println("Karte " + card + " ist schon im Deck");
                 return;
             }
         }
-        if (!contained) {
-            int n = this.cards.length;
-            this.cards = Arrays.copyOf(this.cards, n + 1);
-            this.cards[n] = card;
-        }
+        int n = this.cards.length;
+        this.cards = Arrays.copyOf(this.cards, n + 1);
+        this.cards[n] = card;
     }
 
     public Card pop() {
