@@ -31,7 +31,7 @@ Es ist daraus also ersichtlich, wer wann welche Commits gemacht hat und was dami
 Der aktuelle Zustand des Git Repositories lässt sich mittels
 
 ```term
-git log
+git status
 ```
 
 anzeigen. Hier wird ersichtlich, ob es geänderte Dateien gibt, ob diese bereits für einen neuen Commit vorgemerkt sind (grün statt rot) und ob gerade ein
