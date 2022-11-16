@@ -13,7 +13,7 @@
  */
 
 public class LanguageTeacher extends Teacher {
-    int vocabularySize;
+    protected int vocabularySize;
 
     public LanguageTeacher(String name, int vocabularySize) {
         super(name);

@@ -32,7 +32,7 @@ import java.util.Random;
 public class Teacher {
     private String name;
     private int examsCorrected;
-    public static int MAX_EXAMS = 100;
+    public static final int MAX_EXAMS = 100;
     private int[] correctionTimes; // Korrekturzeiten in Tagen
     private Random rnd;
 
@@ -79,8 +79,7 @@ public class Teacher {
     }
 
     public void printStatistics() {
-        float averageTime = this.getAverageCorrectionTime();
-        if (averageTime != averageTime) {
+        if (examsCorrected == 0) {
             System.out.println(this.getName() + " hat noch keine Prüfungen korrigiert!");
         } else {
             System.out.println(this.getName() + " hat durchschnittliche Korrekturzeit "
