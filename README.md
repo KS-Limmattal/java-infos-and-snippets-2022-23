@@ -43,3 +43,4 @@ Siehe [Seite zu Git](GIT.md)
 ## Prüfungen
 
 - [Lernziele](Lernziele_Java_Programmierung_1_EFI.pdf) zur ersten Prüfung
+- [Prüfung 1](https://classroom.github.com/a/y6BNzA95)
