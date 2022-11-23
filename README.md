@@ -39,6 +39,7 @@ Siehe [Seite zu Git](GIT.md)
 - Einführung in Git und Github [Link](https://classroom.github.com/a/Au95RH-b)
 - [Übung 3](https://classroom.github.com/a/wVc3AoTq) zu Klassen
 - [Übung 4](https://classroom.github.com/a/1zxwLAoX) zu abgeleiteten Klassen
+- [Übung 5](https://classroom.github.com/a/Gbaskz3C) zu abstrakten Klassen
 
 ## Prüfungen
 
