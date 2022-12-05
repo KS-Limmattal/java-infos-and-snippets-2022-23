@@ -29,7 +29,7 @@
  * nicht wirklich eine Methode der Basisklasse überschrieben wird, etwa weil
  * die Parameterliste, der Rückgabetyp oder die Sichtbarkeit verschieden ist.
  * 
- * Theoretische braucht eine abstrakte Klasse keine abstrakten Methoden zu
+ * Theoretisch braucht eine abstrakte Klasse keine abstrakten Methoden zu
  * enthalten. Sie kann auch einfach nur als unvollständig angesehen werden, so
  * dass sie nicht instanziert werden soll. Das ist aber eher die Ausnahme.
  * 

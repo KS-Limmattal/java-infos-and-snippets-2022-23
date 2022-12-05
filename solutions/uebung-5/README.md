@@ -17,4 +17,5 @@ Nähere Anweisungen finden sich in den einzelnen `.java`-Datei-Vorlagen.
 Wer die Hauptfunktionalität implementiert hat, kann sich folgenden Zusätzen widmen:
 
 - Leite weitere Klassen für die anderen Schachfiguren (Läufer, Springer, Bauer) von der Klasse `ChessPiece` ab
+- Führen Sie in der Klasse `Chess` eine Methode ein, welche überprüft, ob ein König im Schach steht.
 - Erlaube es dem Benutzer, über Konsole Ein-/Ausgabe eine Schachpartie (evtl. mit reduziertem Material) zu spielen
