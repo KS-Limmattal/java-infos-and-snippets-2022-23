@@ -41,6 +41,7 @@ Siehe [Seite zu Git](GIT.md)
 - [Übung 4](https://classroom.github.com/a/1zxwLAoX) zu abgeleiteten Klassen
 - [Übung 5](https://classroom.github.com/a/Gbaskz3C) zu abstrakten Klassen
 - [Übung 6](https://classroom.github.com/a/zq2iqHQe) zu Interfaces
+- [Übung 7](https://classroom.github.com/a/3fqnr3aq) zu parametrisierten Typen (Generics)
 
 ## Prüfungen
 
