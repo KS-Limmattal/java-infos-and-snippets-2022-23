@@ -1,9 +1,9 @@
-public class Sort3<T extends Comparable<T>> { // T muss das Interface Comparable mit Typargument T implementieren, d.h.
-                                              // vergleichbar mit T sein
+public class Sort2<T extends Comparable<T>> { // T muss das Interface Comparable mit Typargument T implementieren, d.h.
+    // vergleichbar mit T sein
     private T obj1;
     private T obj2;
 
-    public Sort3(T obj1, T obj2) {
+    public Sort2(T obj1, T obj2) {
         this.obj1 = obj1;
         this.obj2 = obj2;
     }

@@ -66,11 +66,11 @@ public class GenericsMain {
         Test<Integer> testInt = new Test<Integer>(42); // Objekt der Klasse Test mit Typargument "Integer"
         System.out.println(testInt.getObject());
 
-        Sort3<Integer> sort3Int = new Sort3<Integer>(5, 3);
+        Sort2<Integer> sort3Int = new Sort2<Integer>(5, 3);
         sort3Int.sort();
         System.out.println(sort3Int);
 
-        Sort3<String> sort3String = new Sort3<String>("Omega", "Alpha");
+        Sort2<String> sort3String = new Sort2<String>("Omega", "Alpha");
         sort3String.sort();
         System.out.println(sort3String);
 
