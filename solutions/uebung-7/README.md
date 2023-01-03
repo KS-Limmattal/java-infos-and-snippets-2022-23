@@ -16,5 +16,5 @@ Folgende Klasse sollen geschrieben werden:
 ## Zusätze
 
 - Ändern Sie die `toString`-Methode von `Fract` so ab, dass Brüche mit Nenner `1` oder `-1` wie Ganzzahlen dargestellt werden.
-- Fügen Sie der Klasse `Fract` eine Methode `shorten` hinzu, welche zur Instanz von `Fract` einen gekürzten Bruch zurückgibt. Schreiben Sie die Methoden `addTo` und `multTo` so um, dass der Rückgabewert gekürzt wird
+- Fügen Sie der Klasse `Fract` eine Methode `simplify` hinzu, welche zur Instanz von `Fract` einen gekürzten Bruch zurückgibt. Schreiben Sie die Methoden `addTo` und `multTo` so um, dass der Rückgabewert gekürzt wird
 - Schreiben Sie weitere Klassen, die `RingElement` implementieren. Wie wäre es z.B. mit Polynomen mit ganzzahligen Koeffizienten?

@@ -18,15 +18,15 @@ public class Fract implements RingElement<Fract> {
 
     @Override
     public Fract addTo(Fract other) {
-        return shorten(new Fract(this.n * other.d + this.d * other.n, this.d * other.d));
+        return simplify(new Fract(this.n * other.d + this.d * other.n, this.d * other.d));
     }
 
     @Override
     public Fract multTo(Fract other) {
-        return shorten(new Fract(this.n * other.n, this.d * other.d));
+        return simplify(new Fract(this.n * other.n, this.d * other.d));
     }
 
-    public Fract shorten(Fract f) {
+    public Fract simplify(Fract f) {
         int n = f.n;
         int d = f.d;
         boolean divisible;
