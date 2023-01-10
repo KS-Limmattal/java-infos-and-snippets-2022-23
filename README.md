@@ -42,6 +42,7 @@ Siehe [Seite zu Git](GIT.md)
 - [Übung 5](https://classroom.github.com/a/Gbaskz3C) zu abstrakten Klassen
 - [Übung 6](https://classroom.github.com/a/zq2iqHQe) zu Interfaces
 - [Übung 7](https://classroom.github.com/a/3fqnr3aq) zu parametrisierten Typen (Generics)
+- [Übung 8](https://classroom.github.com/a/9nWM4gI5) zu ArrayLists
 
 ## Prüfungen
 
