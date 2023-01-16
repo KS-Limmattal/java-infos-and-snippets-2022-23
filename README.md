@@ -17,7 +17,7 @@ enthält. Der Quellcode wird beim Speichern somit automatisch formatiert.
 
 - [w3schools Java Tutorial](https://www.w3schools.com/java/default.asp)
 - [GeeksForGeeks Java Tutorial](https://www.geeksforgeeks.org/java/)
-- Generics: [What is Type Erasure?](https://www.david-merrick.com/2017/09/19/what-is-type-erasure/
+- Generics: [What is Type Erasure?](https://www.david-merrick.com/2017/09/19/what-is-type-erasure/)
 
 ## Themen
 
