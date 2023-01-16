@@ -15,8 +15,13 @@ enthält. Der Quellcode wird beim Speichern somit automatisch formatiert.
 
 ## Ressourcen
 
+### Allgemein
+
 - [w3schools Java Tutorial](https://www.w3schools.com/java/default.asp)
 - [GeeksForGeeks Java Tutorial](https://www.geeksforgeeks.org/java/)
+
+### Spezifisch
+
 - [What Are OOP Concepts in Java? How They Work and More](https://stackify.com/oops-concepts-in-java/)
 - Generics: [What is Type Erasure?](https://www.david-merrick.com/2017/09/19/what-is-type-erasure/)
 
