@@ -114,12 +114,6 @@ public class ListTester {
         StackTester(new DynamicRingList<Integer>());
         QueueTester(new DynamicRingList<Integer>());
 
-        StackTester(new LinkedList<Integer>());
-        QueueTester(new LinkedList<Integer>());
-
-        StackTester(new DoublyLinkedList<Integer>());
-        QueueTester(new DoublyLinkedList<Integer>());
-
 
         /*
          * Performance tests on the implemented List classes
@@ -134,21 +128,6 @@ public class ListTester {
 
         StackPerformanceTester(new DynamicRingList<Integer>(), sampleSize);
         QueuePerformanceTester(new DynamicRingList<Integer>(), sampleSize);
-
-        StackPerformanceTester(new LinkedList<Integer>(), sampleSize);
-        QueuePerformanceTester(new LinkedList<Integer>(), sampleSize);
-
-        StackPerformanceTester(new DoublyLinkedList<Integer>(), sampleSize);
-        QueuePerformanceTester(new DoublyLinkedList<Integer>(), sampleSize);
-
-
-        sampleSize = 10000000;
-
-        StackPerformanceTester(new DynamicRingList<Integer>(), sampleSize);
-        QueuePerformanceTester(new DynamicRingList<Integer>(), sampleSize);
-
-        StackPerformanceTester(new DoublyLinkedList<Integer>(), sampleSize);
-        QueuePerformanceTester(new DoublyLinkedList<Integer>(), sampleSize);
     }
 }
 
