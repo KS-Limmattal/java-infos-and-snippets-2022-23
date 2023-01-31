@@ -29,14 +29,20 @@ public class ListTester {
         list.push(2);
         list.push(3);
         list.push(4);
-        System.out.println(list.toString());
+        System.out.println(list.toString() + " after pushing 1, 2, 3, 4");
         System.out.println("pop: " + list.pop());
         System.out.println("pop: " + list.pop());
-        System.out.println(list.toString());
+        list.push(5);
+        System.out.println(list.toString() + " after popping two and pushing 5");
         // The following code was important to test removing the last remaining item from the list.
-        // System.out.println("pop: " + list.pop());
-        // System.out.println("pop: " + list.pop());
-        // System.out.println(list.toString());
+        System.out.println("pop: " + list.pop());
+        System.out.println("pop: " + list.pop());
+        System.out.println("pop: " + list.pop());
+        System.out.println(list.toString() + " after popping all");
+        list.push(6);
+        list.push(7);
+        System.out.println(list.toString() + " after pushing 6, 7");
+        System.out.println();
     }
 
     public static void QueueTester(List<Integer> list) {
@@ -45,14 +51,19 @@ public class ListTester {
         list.queue(2);
         list.queue(3);
         list.queue(4);
-        System.out.println(list.toString());
+        System.out.println(list.toString() + " after queuing 1, 2, 3, 4");
         System.out.println("dequeue: " + list.dequeue());
         System.out.println("dequeue: " + list.dequeue());
-        System.out.println(list.toString());
+        list.queue(5);
+        System.out.println(list.toString() + " after dequeuing two and queuing 5");
         // The following code was important to test removing the last remaining item from the list.
-        // System.out.println("dequeue: " + list.dequeue());
-        // System.out.println("dequeue: " + list.dequeue());
-        // System.out.println(list.toString());
+        System.out.println("dequeue: " + list.dequeue());
+        System.out.println("dequeue: " + list.dequeue());
+        System.out.println("dequeue: " + list.dequeue());
+        System.out.println(list.toString() + " after dequeuing all");
+        list.queue(6);
+        list.queue(7);
+        System.out.println(list.toString() + " after queuing 6, 7");
         System.out.println();
     }
 
@@ -114,10 +125,9 @@ public class ListTester {
         StackTester(new DynamicRingList<Integer>());
         QueueTester(new DynamicRingList<Integer>());
 
-
-        /*
-         * Performance tests on the implemented List classes
-         */
+        // /*
+        //  * Performance tests on the implemented List classes
+        //  */
         int sampleSize = 10000;
 
         StackPerformanceTester(new ArrayList<Integer>(), sampleSize);
