@@ -22,8 +22,10 @@ enthält. Der Quellcode wird beim Speichern somit automatisch formatiert.
 
 ### Spezifisch
 
-- [What Are OOP Concepts in Java? How They Work and More](https://stackify.com/oops-concepts-in-java/)
+- [What Are OOP Concepts in Java? How They Work and More (Stackify)](https://stackify.com/oops-concepts-in-java/)
 - Generics: [What is Type Erasure?](https://www.david-merrick.com/2017/09/19/what-is-type-erasure/)
+- [Stack Memory and Heap Space in Java (Baeldung)](https://www.baeldung.com/java-stack-heap)
+- [Java Collections Framework (Java by Developer)](https://javabydeveloper.com/collection-framework-key-interfaces/)
 
 ## Themen
 
